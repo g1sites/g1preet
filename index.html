@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>G1 SherGill — Jeevanpreet Singh</title>
+<meta name="description" content="Hello, I'm Jeevanpreet (aka G1) — entrepreneur, mechanic, programmer. Life is an art of drawing without having an eraser." />
+<meta name="robots" content="index,follow" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="G1 SherGill — Jeevanpreet Singh" />
+<meta property="og:description" content="Entrepreneur by heart, mechanic by passion, programmer by trait." />
+<meta property="og:url" content="https://www.g1preet.com/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="G1 SherGill" />
+<meta name="twitter:description" content="Entrepreneur by heart, mechanic by passion, programmer by trait." />
+<link rel="preconnect" href="https://fonts.bunny.net" crossorigin />
+<link rel="stylesheet" href="https://fonts.bunny.net/css?family=fraunces:400,600,700|inter:400,500,600" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        ink: '#1a1410',
+        ink2: '#241c17',
+        cream: '#f5efe6',
+        cream2: '#ebe2d3',
+        terracotta: '#c0623f',
+        gold: '#d4a574',
+        muted: '#8a7a6a'
+      },
+      fontFamily: {
+        serif: ['Fraunces','ui-serif','Georgia','serif'],
+        sans: ['Inter','ui-sans-serif','system-ui','sans-serif']
+      }
+    }
+  }
+}
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  body{background:#1a1410;color:#f5efe6;font-family:Inter,system-ui,sans-serif}
+  .reveal{opacity:0;transform:translateY(16px);transition:opacity .8s ease,transform .8s ease}
+  .reveal.in{opacity:1;transform:none}
+  .grain{background-image:radial-gradient(rgba(245,239,230,.04) 1px,transparent 1px);background-size:3px 3px}
+</style>
+</head>
+<body class="antialiased">
+
+<header class="absolute top-0 left-0 right-0 z-20">
+  <nav class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+    <a href="/" class="font-serif text-xl tracking-tight text-cream">G1<span class="text-terracotta">.</span></a>
+    <div class="flex items-center gap-6 text-sm text-cream/80">
+      <a href="/contact/" class="hover:text-terracotta transition">Contact</a>
+      <a href="/help/" class="hover:text-terracotta transition">Help</a>
+    </div>
+  </nav>
+</header>
+
+<section class="relative min-h-screen flex items-center grain">
+  <div class="absolute inset-0 bg-gradient-to-br from-ink via-ink2 to-ink"></div>
+  <div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-terracotta/10 blur-3xl"></div>
+  <div class="absolute -bottom-32 -left-32 w-96 h-96 rounded-full bg-gold/10 blur-3xl"></div>
+  <div class="relative max-w-6xl mx-auto px-6 py-32 sm:py-40 w-full">
+    <p class="reveal text-terracotta text-xs sm:text-sm uppercase tracking-[0.3em] mb-6">Hello —</p>
+    <h1 class="reveal font-serif text-5xl sm:text-7xl lg:text-8xl leading-[0.95] text-cream mb-8">
+      I'm <span class="italic text-gold">Jeevanpreet</span><br />
+      <span class="text-cream/90">aka G1.</span>
+    </h1>
+    <p class="reveal max-w-2xl text-lg sm:text-xl text-cream/70 leading-relaxed mb-10">
+      I believe <span class="text-cream">"life is an art of drawing without having an eraser."</span>
+    </p>
+    <div class="reveal flex flex-wrap gap-4">
+      <a href="/contact/" class="inline-flex items-center gap-2 bg-terracotta hover:bg-terracotta/90 text-cream px-6 py-3 rounded-full text-sm font-medium transition">
+        Send a message
+        <span aria-hidden="true">→</span>
+      </a>
+      <a href="#about" class="inline-flex items-center gap-2 border border-cream/20 hover:border-cream/40 text-cream/90 px-6 py-3 rounded-full text-sm font-medium transition">
+        About me
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="relative py-24 sm:py-32 bg-cream text-ink">
+  <div class="max-w-5xl mx-auto px-6">
+    <p class="reveal text-terracotta text-xs uppercase tracking-[0.3em] mb-6">About</p>
+    <h2 class="reveal font-serif text-3xl sm:text-5xl leading-tight mb-12 max-w-3xl">
+      An entrepreneur by <span class="italic text-terracotta">heart</span>, a mechanic by <span class="italic text-terracotta">passion</span>, a programmer by <span class="italic text-terracotta">trait</span>.
+    </h2>
+    <div class="grid sm:grid-cols-3 gap-8 sm:gap-12">
+      <div class="reveal">
+        <div class="font-serif text-3xl text-terracotta mb-3">♥</div>
+        <h3 class="font-serif text-xl mb-2">Entrepreneur</h3>
+        <p class="text-ink/70 text-sm leading-relaxed">Building. Operating. Looking around the next corner.</p>
+      </div>
+      <div class="reveal">
+        <div class="font-serif text-3xl text-terracotta mb-3">⚙</div>
+        <h3 class="font-serif text-xl mb-2">Mechanic</h3>
+        <p class="text-ink/70 text-sm leading-relaxed">Things that move, taken apart and put back better.</p>
+      </div>
+      <div class="reveal">
+        <div class="font-serif text-3xl text-terracotta mb-3">{ }</div>
+        <h3 class="font-serif text-xl mb-2">Programmer</h3>
+        <p class="text-ink/70 text-sm leading-relaxed">Systems, automations, and quiet leverage.</p>
+      </div>
+    </div>
+    <p class="reveal mt-16 text-ink/60 text-sm italic">…and a lucky soul (‰) in between.</p>
+  </div>
+</section>
+
+<section class="relative py-24 sm:py-32 grain">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <p class="reveal text-terracotta text-xs uppercase tracking-[0.3em] mb-6">Get in touch</p>
+    <h2 class="reveal font-serif text-4xl sm:text-6xl leading-tight text-cream mb-8">
+      Want to <span class="italic text-gold">talk</span>?
+    </h2>
+    <p class="reveal text-cream/70 text-lg mb-10 max-w-xl mx-auto">
+      Drop me a line. I read every message.
+    </p>
+    <a href="/contact/" class="reveal inline-flex items-center gap-2 bg-terracotta hover:bg-terracotta/90 text-cream px-8 py-4 rounded-full text-sm font-medium transition">
+      Send a message
+      <span aria-hidden="true">→</span>
+    </a>
+  </div>
+</section>
+
+<footer class="border-t border-cream/10 py-10">
+  <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-cream/50">
+    <p>G1preet &copy; 2026 — Jeevanpreet Singh</p>
+    <div class="flex gap-6">
+      <a href="/contact/" class="hover:text-terracotta transition">Contact</a>
+      <a href="/help/" class="hover:text-terracotta transition">Help</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const io = new IntersectionObserver((es)=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
